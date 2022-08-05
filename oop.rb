@@ -50,7 +50,7 @@ class Dragon
   end
 
   def eat(times_eaten)
-    if times >= 4
+    if times_eaten >= 4
       @is_hungry = false
     end
   end
